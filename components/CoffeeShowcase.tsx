@@ -198,6 +198,6 @@ export default function CoffeeShowcase() {
                     <div className="hover:text-stone-400 transition-colors">© 2026 AURA BOTANICA. ALL RIGHTS RESERVED.</div>
                 </div>
             </footer>
-        </div>
+        
     );
 }
