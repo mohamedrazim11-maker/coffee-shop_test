@@ -7,7 +7,7 @@ export interface CoffeeFlavor {
 
 export const NAV_LINKS = [
   { label: "Flavors", href: "#flavors" },
-  { label: "About Us", href: "#story" },
+  { label: "About Us", href: "/about" },
   { label: "Visit Cafe", href: "#cafe" }
 ];
 
