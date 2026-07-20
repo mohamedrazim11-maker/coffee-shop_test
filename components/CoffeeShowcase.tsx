@@ -43,13 +43,14 @@ export default function CoffeeShowcase() {
                     alt="Forest backdrop"
                     fill
                     priority
+                    sizes="100vw"
                     className="object-cover opacity-35 pointer-events-none"
                 />
                 <div className="absolute inset-0 bg-gradient-to-tr from-stone-950 via-emerald-950/80 to-stone-950 mix-blend-multiply" />
                 <div className="absolute inset-0 bg-gradient-to-b from-transparent via-stone-950/60 to-stone-950" />
             </div>
 
-            {/* --- HEADER (Cart Removed) --- */}
+            {/* --- HEADER --- */}
             <header className="relative z-30 flex justify-between items-center px-6 md:px-12 py-5 max-w-7xl mx-auto backdrop-blur-sm bg-stone-950/20 rounded-full my-4 border border-white/5">
                 <motion.div
                     initial={{ opacity: 0, x: -20 }}
@@ -140,6 +141,7 @@ export default function CoffeeShowcase() {
                                 src="https://images.unsplash.com/photo-1544787219-7f47ccb76574?auto=format&fit=crop&w=600&q=80"
                                 alt="Artisanal Drip Brew"
                                 fill
+                                sizes="(max-width: 768px) 100vw, 300px"
                                 className="object-cover rounded-2xl p-1 group-hover:scale-105 transition-transform duration-700"
                             />
                         </div>
@@ -157,6 +159,7 @@ export default function CoffeeShowcase() {
                                 src="https://images.unsplash.com/photo-1541167760496-1628856ab772?auto=format&fit=crop&w=400&q=80"
                                 alt="Latte Art"
                                 fill
+                                sizes="(max-width: 768px) 150px, 200px"
                                 className="object-cover"
                             />
                         </div>
